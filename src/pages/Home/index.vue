@@ -25,7 +25,7 @@
           <img src="./images/content2.jpg" />
         </div>
       </router-link>
-      <router-link to="./photo">
+      <router-link to="/photo">
         <div class="content">
           <img src="./images/content3.jpg" />
           <h1>相册</h1>
@@ -33,14 +33,14 @@
           <p>My photo album, about some works of art that I like</p>
         </div>
       </router-link>
-      <a href="javascript:;">
+      <router-link to="/other">
         <div class="content">
           <h1>其他</h1>
           <p>加入我们(虽然还没有"们")，我的其他制作</p>
           <p>Join us (although there is no "we"), my other productions</p>
           <img src="./images/content4.jpg" />
         </div>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
